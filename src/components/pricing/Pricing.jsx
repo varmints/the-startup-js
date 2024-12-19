@@ -71,11 +71,11 @@ export const Pricing = () => {
               </GhostButton>
             }
             benefits={[
-              { text: "Unlimited workspaces", checked: true },
-              { text: "Email support", checked: true },
-              { text: "30 day data retention", checked: true },
-              { text: "Custom roles", checked: true },
-              { text: "Priority support", checked: true },
+              { text: "Nieograniczone przestrzenie robocze", checked: true },
+              { text: "Wsparcie e-mailowe", checked: true },
+              { text: "Przechowywanie danych przez 30 dni", checked: true },
+              { text: "Role niestandardowe", checked: true },
+              { text: "Wsparcie priorytetowe", checked: true },
               { text: "SSO", checked: true },
             ]}
           />
