@@ -144,7 +144,7 @@ const MockupMain = () => {
     <div className="relative w-full">
       <div className="relative z-0 w-full p-4">
         <div className="w-full border-b border-zinc-700 pb-2 text-xs font-semibold uppercase text-zinc-500">
-          <span>User</span>
+          <span>Użytkownik</span>
         </div>
         {users.map((u, i) => (
           <motion.div
