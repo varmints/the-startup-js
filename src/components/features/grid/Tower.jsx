@@ -53,23 +53,23 @@ const MockupSideBar = () => (
     <div className="space-y-2">
       <div className="flex items-center gap-1 rounded bg-zinc-700 px-1 py-0.5 text-xs text-zinc-200">
         <FiUser />
-        Users
+        Użytkownicy
       </div>
       <div className="flex items-center gap-1 rounded px-1 py-0.5 text-xs text-zinc-600">
         <FiMail />
-        Campaigns
+        Kampanie
       </div>
       <div className="flex items-center gap-1 rounded px-1 py-0.5 text-xs text-zinc-600">
         <FiAward />
-        Goals
+        Cele
       </div>
       <div className="flex items-center gap-1 rounded px-1 py-0.5 text-xs text-zinc-600">
         <FiGrid />
-        Tools
+        Narzędzia
       </div>
       <div className="flex items-center gap-1 rounded px-1 py-0.5 text-xs text-zinc-600">
         <FiSettings />
-        Settings
+        Ustawienia
       </div>
     </div>
   </div>
@@ -86,40 +86,40 @@ const MockupTopBar = () => (
 const MockupMain = () => {
   const [users, setUsers] = useState([
     {
-      name: "John Johnson",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      name: "Szymon Jankowski",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Szymon",
     },
     {
-      name: "Dan Daniels",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Dan",
+      name: "Agnieszka Dąbrowska",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Agnieszka",
     },
     {
-      name: "Tom Thomas",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Tom",
+      name: "Karolina Zając",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Karolina",
     },
     {
-      name: "Andrea Andreas",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Andrea",
+      name: "Jadwiga Grabowska",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jadwiga",
     },
     {
-      name: "Pete Peters",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Pete",
+      name: "Filip Majewski",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Filip",
     },
     {
-      name: "Phil Phillips",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Phil",
+      name: "Jadwiga Dudek",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jadwiga",
     },
     {
-      name: "Garry Garrison",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Garry",
+      name: "Ignacy Wiśniewski",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ignacy",
     },
     {
-      name: "Frank Franklin",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Frank",
+      name: "Ewa Malinowska",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ewa",
     },
     {
-      name: "Don Donaldson",
-      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Don",
+      name: "Antoni Nowakowski",
+      src: "https://api.dicebear.com/7.x/avataaars/svg?seed=Antoni",
     },
   ]);
 
